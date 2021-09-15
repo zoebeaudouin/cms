@@ -13,6 +13,7 @@ export default {
       name: "slug",
       title: "Slug",
       type: "slug",
+      hidden: ({ document }) => !document?.title,
       validation: (Rule) => Rule.required(),
       options: {
         source: "title",
