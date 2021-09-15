@@ -20,6 +20,11 @@ export default {
       name: "stock",
       type: "number",
     },
+    {
+      name: "hexColor",
+      title: "Color",
+      type: "colorPicker",
+    },
     /*
     {
       name: "images",
