@@ -84,6 +84,16 @@ export default {
         layout: "tags",
       },
     },
+    {
+      name: "options",
+      type: "array",
+      title: "Options",
+      of: [
+        {
+          type: "productOption",
+        },
+      ],
+    },
   ],
 
   preview: {
