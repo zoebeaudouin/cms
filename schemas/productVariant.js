@@ -10,16 +10,6 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: "slug",
-      title: "Slug",
-      type: "slug",
-      validation: (Rule) => Rule.required(),
-      options: {
-        source: "title",
-        maxLength: 96,
-      },
-    },
-    {
       title: "Price",
       name: "price",
       type: "number",
@@ -29,11 +19,6 @@ export default {
       title: "Stock quantity",
       name: "stock",
       type: "number",
-    },
-    {
-      name: "hexColor",
-      title: "Color",
-      type: "colorPicker",
     },
     /*
     {
