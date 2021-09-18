@@ -11,6 +11,7 @@ export default {
     {
       name: "values",
       title: "Option Values",
+      description: "First value will be the default one",
       type: "array",
       of: [
         {

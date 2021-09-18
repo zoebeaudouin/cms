@@ -4,17 +4,19 @@ export default {
   title: "Product option value",
   fields: [
     {
-      name: "value",
-      title: "Value",
+      name: "label",
+      title: "Label",
       type: "string",
       validation: (Rule) => Rule.required(),
     },
+    /*
     {
       title: "Price",
       description: "Optional",
       name: "price",
       type: "number",
     },
+    */
     {
       name: "hexColor",
       title: "Color",
