@@ -33,6 +33,9 @@ export default {
           },
         },
       ],
+      options: {
+        layout: "grid",
+      },
     },
     {
       name: "blurb",
